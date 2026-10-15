@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="assets/kyleus-bios-header.png" alt=".Kyleus✞ — personal BIOS profile with a glass star on the right" width="100%">
+  <img src="assets/kyleus-glass-star-header.png" alt=".Kyleus✞ — personal BIOS profile with a glass star on the right" width="100%">
 </div>
 
 <p align="center">
