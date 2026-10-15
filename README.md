@@ -3,42 +3,27 @@
 </div>
 
 <p align="center">
-  <code>PERSONAL BIOS // 01</code><br>
-  <sub>Code · Music · Games</sub>
+  <code>UNDERGROUND ARCHIVE 2026</code> &nbsp;✦&nbsp; <code>PERSONAL ARCHIVE</code>
 </p>
 
-## `01 // PROFILE`
+## `01 // ABOUT`
 
-A personal corner for projects, experiments, and things I want to keep.
+I'm **.Kyleus✞**. This profile is my little corner for code, personal projects, and things I want to keep around. I’m into programming, music, and games.
 
-## `02 // DEV`
+## `02 // CURRENT PROJECT`
 
-<pre>
-LANGUAGES .... C++ / Python / JavaScript
-INTERESTS ... Code / music / games
-</pre>
+**Kyleus BIO** is my personal site, styled like an old BIOS screen. It has a boot-up sequence, a retro computer with a terminal, a music player, and a live GitHub activity section.
 
-<details>
-  <summary><code>03 // MY SETUP</code></summary>
-  <br>
-  <pre>
-CPU .......... AMD Ryzen 5 5500
-GPU .......... NVIDIA GeForce GTX 1060 6 GB
-MEMORY ....... Kingston FURY 32 GB DDR4-3200
-MOTHERBOARD .. ASUS PRIME B450M-A II
-STORAGE ...... Kingston NV2 512 GB · SSD 256 GB · HDD 2 TB
-DISPLAYS ..... Samsung Odyssey G5 32" · Acer K242HYL 24"
-KEYBOARD ..... Logitech G413 TKL SE
-MOUSE ........ Logitech G Pro X Superlight 2
-HEADSET ...... Logitech G733
-  </pre>
-</details>
+<p><a href="https://kyleus.vercel.app/">OPEN THE BIO ↗</a></p>
 
-## `04 // LINKS`
+## `03 // CODE`
 
-<p>
-  <a href="https://kyleus.vercel.app/">OPEN BIO ↗</a> ·
-  <a href="https://t.me/kyleuss">TELEGRAM</a> ·
-  <a href="https://steamcommunity.com/id/Kyleuss/">STEAM</a> ·
+<code>C++</code> &nbsp; <code>Python</code> &nbsp; <code>JavaScript</code>
+
+<hr>
+
+<p align="center">
+  <a href="https://t.me/kyleuss">TELEGRAM</a> &nbsp;✦&nbsp;
+  <a href="https://steamcommunity.com/id/Kyleuss/">STEAM</a> &nbsp;✦&nbsp;
   <a href="https://discord.com/users/723520555348656138">DISCORD</a>
 </p>
