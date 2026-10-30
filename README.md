@@ -10,10 +10,10 @@
   <tr>
     <td valign="top" width="68%">
       <p><code>01 // ABOUT</code></p>
-      <p>I'm <strong>.Kyleus✞</strong>. This profile is my little corner for code, personal projects, and things I want to keep around. I’m into programming, music, and games.</p>
-      <p><code>02 // CURRENT PROJECT</code></p>
-      <p><strong>Kyleus BIO</strong> is my personal site, styled like an old BIOS screen. It has a boot-up sequence, a retro computer with a terminal, a music player, and a live GitHub activity section.</p>
-      <p><a href="https://kyleus.vercel.app/">OPEN THE BIO ↗</a></p>
+      <p>I'm <strong>.Kyleus✞</strong>. This profile is my little corner for code, personal projects, and things I want to keep around. Mostly games, music, and good people.</p>
+      <p><code>02 // TRANSMISSION</code></p>
+      <p><strong>CODE AFTER DARK</strong><br><strong>MUSIC ON LOOP</strong><br><strong>ONE MORE ROUND</strong></p>
+      <p><a href="https://kyleus.vercel.app/">ENTER THE BIO ↗</a></p>
     </td>
     <td align="center" valign="middle" width="32%">
       <img src="assets/chrome-study.gif" alt="Looping chrome motion study" width="240">
