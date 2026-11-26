@@ -26,28 +26,7 @@
     "subtitle": "Desktop software, web and game visuals.\nFounder of Ryoko Development.",
     "typing": true,
     "avatarShape": "cookie12",
-    "chips": [
-      {
-        "icon": "brand:cplusplus",
-        "label": "C++"
-      },
-      {
-        "icon": "brand:dotnet",
-        "label": "C#"
-      },
-      {
-        "icon": "brand:openjdk",
-        "label": "Java"
-      },
-      {
-        "icon": "brand:python",
-        "label": "Python"
-      },
-      {
-        "icon": "brand:typescript",
-        "label": "TS"
-      }
-    ]
+    "chips": []
   },
   "about": {
     "title": "About / 01",
