@@ -21,7 +21,7 @@
   "hero": {
     "greeting": "UNDERGROUND ARCHIVE /",
     "name": ".Kyleus✞",
-    "subtitle": "Code after dark. Music on loop.\nBuilding things for the web and desktop.",
+    "subtitle": "Code after dark. Music on loop.\nCurrently building the Ryoko ecosystem.",
     "typing": true,
     "avatarShape": "cookie12",
     "chips": [
@@ -55,14 +55,39 @@
         "label": "Minimal interfaces, motion and monochrome design"
       },
       {
-        "icon": "music_note",
-        "label": "Music, games and late-night code"
+        "icon": "deployed_code",
+        "label": "Currently building Ryoko"
       }
     ]
   },
   "stack": {
     "title": "Tech stack / 02",
     "groups": [
+      {
+        "title": "Current projects / languages",
+        "items": [
+          {
+            "icon": "desktop_windows",
+            "label": "Ryoko Tweaker — C# / WPF"
+          },
+          {
+            "icon": "sports_esports",
+            "label": "Ryoko Visuals — Java / Fabric"
+          },
+          {
+            "icon": "code",
+            "label": "Ryoko CS2 Kit — C++"
+          },
+          {
+            "icon": "brand:discord",
+            "label": "RustClanManager — JavaScript / Node.js"
+          },
+          {
+            "icon": "language",
+            "label": "Ryoko Website — JavaScript"
+          }
+        ]
+      },
       {
         "title": "Languages",
         "items": [
