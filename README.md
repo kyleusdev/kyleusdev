@@ -20,6 +20,4 @@
 
 <a href="https://github.com/kyleusdev?tab=repositories"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/button-1-dark.svg"><img src="assets/button-1-light.svg" width="auto" alt="Public repositories"></picture></a>
 
-<a href="https://metawka.github.io/expressive-profile/?from=kyleusdev"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/credit-dark.svg"><img src="assets/credit-light.svg" width="auto" alt="Made with Expressive Profile"></picture></a>
-
 </div>
