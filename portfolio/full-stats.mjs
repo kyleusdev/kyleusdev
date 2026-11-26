@@ -35,8 +35,8 @@ function patchStats(svg,projects,primary,live){
 }
 function patchReadme(s,projects){
  const names=projects.map(p=>p[0]).join(", ");
- const block=`<picture><source media="(prefers-color-scheme: dark)" srcset="portfolio/icon-repositories-dark.svg"><img src="portfolio/icon-repositories-light.svg" width="100%" alt="All ${projects.length} repositories: ${names}"></picture>`;
- s=s.replace(/^.*srcset="portfolio\/(?:projects|repositories|compact-repositories|icon-repositories)-dark\.svg".*\n?/gm,"").replace(/(<picture><source media="\(prefers-color-scheme: dark\)" srcset="assets\/stack-dark\.svg"[^]*?<\/picture>)/,"$1\n\n"+block);
+ const block=`<picture><source media="(prefers-color-scheme: dark)" srcset="portfolio/clean-repositories-dark.svg"><img src="portfolio/clean-repositories-light.svg" width="100%" alt="All ${projects.length} repositories: ${names}"></picture>`;
+ s=s.replace(/^.*srcset="portfolio\/(?:projects|repositories|compact-repositories|icon-repositories|clean-repositories)-dark\.svg".*\n?/gm,"").replace(/(<picture><source media="\(prefers-color-scheme: dark\)" srcset="assets\/stack-dark\.svg"[^]*?<\/picture>)/,"$1\n\n"+block);
  return s.replace(/(?:assets\/stats|portfolio\/activity)-(dark|light)\.svg/g,"portfolio/activity-$1.svg").replace(/\n{3,}/g,"\n\n");
 }
 async function liveStats(){
@@ -53,7 +53,7 @@ async function liveStats(){
  }catch(e){console.warn("Full language stats unavailable; using listed project stacks:",e.message);return null;}
 }
 const live=await liveStats();
-for(const theme of ["dark","light"]){writeFileSync("portfolio/icon-repositories-"+theme+".svg",readFileSync("portfolio/projects-"+theme+".svg","utf8"));writeFileSync("portfolio/activity-"+theme+".svg",patchStats(readFileSync("assets/stats-"+theme+".svg","utf8"),projects,primary,live));}
+for(const theme of ["dark","light"]){writeFileSync("portfolio/clean-repositories-"+theme+".svg",readFileSync("portfolio/projects-"+theme+".svg","utf8"));writeFileSync("portfolio/intro-"+theme+".svg",readFileSync("assets/hero-"+theme+".svg","utf8"));writeFileSync("portfolio/activity-"+theme+".svg",patchStats(readFileSync("assets/stats-"+theme+".svg","utf8"),projects,primary,live));}
 function patchAbout(s){
  const block='<picture><source media="(prefers-color-scheme: dark)" srcset="portfolio/about-compact-dark.svg"><img src="portfolio/about-compact-light.svg" width="100%" alt="About: Full-stack development, desktop utilities, web and game visuals."></picture>\n\n<a href="https://github.com/Ryoko-Development"><picture><source media="(prefers-color-scheme: dark)" srcset="portfolio/ryoko-brand-dark.svg"><img src="portfolio/ryoko-brand-light.svg" width="100%" alt="Ryoko Development — Founder and developer"></picture></a>';
  s=s.replace(/^.*srcset="portfolio\/(?:ryoko-org|ryoko-brand)-dark\.svg".*\n?/gm,"");
@@ -62,4 +62,4 @@ function patchAbout(s){
  return s.replace(re,block).replace(/\n{3,}/g,"\n\n");
 }
 function removeCredit(s){return s.replace(/^.*srcset="assets\/credit-dark\.svg".*\n?/gm,"").replace(/\n{3,}/g,"\n\n");}
-writeFileSync("README.md",removeCredit(patchAbout(patchReadme(readFileSync("README.md","utf8"),projects))));
+writeFileSync("README.md",removeCredit(patchAbout(patchReadme(readFileSync("README.md","utf8"),projects))).replaceAll("assets/hero-","portfolio/intro-"));

@@ -1,6 +1,6 @@
 <div align="center">
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg"><img src="assets/hero-light.svg" width="100%" alt="UNDERGROUND ARCHIVE / .Kyleus✞"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="portfolio/intro-dark.svg"><img src="portfolio/intro-light.svg" width="100%" alt=".Kyleus✞"></picture>
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/social-l-dark.svg"><img src="assets/social-l-light.svg" width="24.995%" alt=""></picture><a href="https://t.me/kyleuss"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/social-1-dark.svg"><img src="assets/social-1-light.svg" width="18.122%" alt="telegram"></picture></a><a href="https://steamcommunity.com/id/Kyleuss/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/social-2-dark.svg"><img src="assets/social-2-light.svg" width="15.335%" alt="steam"></picture></a><a href="https://discord.com/users/723520555348656138"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/social-3-dark.svg"><img src="assets/social-3-light.svg" width="16.552%" alt="discord"></picture></a><picture><source media="(prefers-color-scheme: dark)" srcset="assets/social-r-dark.svg"><img src="assets/social-r-light.svg" width="24.995%" alt=""></picture>
 
@@ -10,7 +10,7 @@
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/stack-dark.svg"><img src="assets/stack-light.svg" width="100%" alt="Tech stack / 02"></picture>
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="portfolio/icon-repositories-dark.svg"><img src="portfolio/icon-repositories-light.svg" width="100%" alt="All 11 repositories: ryoko-tweaker, Ryoko-visuals-1.21.11, Ryoko-CS2, rustbot, ryoko-website, kyleus-resources, kyleus-archive, no.peek-website-bio, kyleus-developer-bot, kyleus-dev-panel, kyleusdev"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="portfolio/clean-repositories-dark.svg"><img src="portfolio/clean-repositories-light.svg" width="100%" alt="All 11 repositories: ryoko-tweaker, Ryoko-visuals-1.21.11, Ryoko-CS2, rustbot, ryoko-website, kyleus-resources, kyleus-archive, no.peek-website-bio, kyleus-developer-bot, kyleus-dev-panel, kyleusdev"></picture>
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="portfolio/activity-dark.svg"><img src="portfolio/activity-light.svg" width="100%" alt="GitHub activity / 04"></picture>
 
