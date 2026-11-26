@@ -77,10 +77,6 @@
             "label": "C#"
           },
           {
-            "icon": "code",
-            "label": "C"
-          },
-          {
             "icon": "brand:openjdk",
             "label": "Java"
           },
