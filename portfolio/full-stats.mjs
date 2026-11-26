@@ -1,3 +1,4 @@
+import {createHash} from "node:crypto";
 import {readFileSync,writeFileSync} from "node:fs";
 const projects=JSON.parse(readFileSync("portfolio/projects.json","utf8"));
 const primary={
@@ -62,4 +63,10 @@ function patchAbout(s){
  return s.replace(re,block).replace(/\n{3,}/g,"\n\n");
 }
 function removeCredit(s){return s.replace(/^.*srcset="assets\/credit-dark\.svg".*\n?/gm,"").replace(/\n{3,}/g,"\n\n");}
-writeFileSync("README.md",removeCredit(patchAbout(patchReadme(readFileSync("README.md","utf8"),projects))).replaceAll("assets/hero-","portfolio/intro-"));
+function refreshSocialAssets(s){
+ return s.replace(/assets\/(social-(?:\d+|l|r)-(?:dark|light)\.svg)(?:\?v=[a-f0-9]+)?/g,(_,name)=>{
+  const version=createHash("sha256").update(readFileSync("assets/"+name)).digest("hex").slice(0,12);
+  return "assets/"+name+"?v="+version;
+ });
+}
+writeFileSync("README.md",refreshSocialAssets(removeCredit(patchAbout(patchReadme(readFileSync("README.md","utf8"),projects))).replaceAll("assets/hero-","portfolio/intro-")));
