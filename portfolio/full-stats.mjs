@@ -61,4 +61,5 @@ function patchAbout(s){
  if(!re.test(s))throw Error("Missing About section");
  return s.replace(re,block).replace(/\n{3,}/g,"\n\n");
 }
-writeFileSync("README.md",patchAbout(patchReadme(readFileSync("README.md","utf8"),projects)));
+function removeCredit(s){return s.replace(/^.*srcset="assets\/credit-dark\.svg".*\n?/gm,"").replace(/\n{3,}/g,"\n\n");}
+writeFileSync("README.md",removeCredit(patchAbout(patchReadme(readFileSync("README.md","utf8"),projects))));
