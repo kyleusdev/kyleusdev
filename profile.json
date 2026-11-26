@@ -97,14 +97,6 @@
             "label": "TypeScript"
           },
           {
-            "icon": "brand:rust",
-            "label": "Rust"
-          },
-          {
-            "icon": "code",
-            "label": "Ruby"
-          },
-          {
             "icon": "code",
             "label": "HTML / CSS"
           },
