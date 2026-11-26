@@ -35,8 +35,8 @@ function patchStats(svg,projects,primary,live){
 }
 function patchReadme(s,projects){
  const names=projects.map(p=>p[0]).join(", ");
- const block=`<picture><source media="(prefers-color-scheme: dark)" srcset="portfolio/repositories-dark.svg"><img src="portfolio/repositories-light.svg" width="100%" alt="All ${projects.length} repositories: ${names}"></picture>`;
- s=s.replace(/^.*srcset="portfolio\/(?:projects|repositories)-dark\.svg".*\n?/gm,"").replace(/(<picture><source media="\(prefers-color-scheme: dark\)" srcset="assets\/stack-dark\.svg"[^]*?<\/picture>)/,"$1\n\n"+block);
+ const block=`<picture><source media="(prefers-color-scheme: dark)" srcset="portfolio/compact-repositories-dark.svg"><img src="portfolio/compact-repositories-light.svg" width="100%" alt="All ${projects.length} repositories: ${names}"></picture>`;
+ s=s.replace(/^.*srcset="portfolio\/(?:projects|repositories|compact-repositories)-dark\.svg".*\n?/gm,"").replace(/(<picture><source media="\(prefers-color-scheme: dark\)" srcset="assets\/stack-dark\.svg"[^]*?<\/picture>)/,"$1\n\n"+block);
  return s.replace(/(?:assets\/stats|portfolio\/activity)-(dark|light)\.svg/g,"portfolio/activity-$1.svg").replace(/\n{3,}/g,"\n\n");
 }
 async function liveStats(){
@@ -53,5 +53,5 @@ async function liveStats(){
  }catch(e){console.warn("Full language stats unavailable; using listed project stacks:",e.message);return null;}
 }
 const live=await liveStats();
-for(const theme of ["dark","light"]){writeFileSync("portfolio/repositories-"+theme+".svg",readFileSync("portfolio/projects-"+theme+".svg","utf8"));writeFileSync("portfolio/activity-"+theme+".svg",patchStats(readFileSync("assets/stats-"+theme+".svg","utf8"),projects,primary,live));}
+for(const theme of ["dark","light"]){writeFileSync("portfolio/compact-repositories-"+theme+".svg",readFileSync("portfolio/projects-"+theme+".svg","utf8"));writeFileSync("portfolio/activity-"+theme+".svg",patchStats(readFileSync("assets/stats-"+theme+".svg","utf8"),projects,primary,live));}
 writeFileSync("README.md",patchReadme(readFileSync("README.md","utf8"),projects));
