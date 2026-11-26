@@ -6,11 +6,11 @@
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="portfolio/about-compact-dark.svg"><img src="portfolio/about-compact-light.svg" width="100%" alt="About: Full-stack development, desktop utilities, web and game visuals."></picture>
 
-<a href="https://github.com/Ryoko-Development"><picture><source media="(prefers-color-scheme: dark)" srcset="portfolio/ryoko-org-dark.svg"><img src="portfolio/ryoko-org-light.svg" width="100%" alt="Ryoko Development — Founder and developer"></picture></a>
+<a href="https://github.com/Ryoko-Development"><picture><source media="(prefers-color-scheme: dark)" srcset="portfolio/ryoko-brand-dark.svg"><img src="portfolio/ryoko-brand-light.svg" width="100%" alt="Ryoko Development — Founder and developer"></picture></a>
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/stack-dark.svg"><img src="assets/stack-light.svg" width="100%" alt="Tech stack / 02"></picture>
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="portfolio/compact-repositories-dark.svg"><img src="portfolio/compact-repositories-light.svg" width="100%" alt="All 11 repositories: ryoko-tweaker, Ryoko-visuals-1.21.11, Ryoko-CS2, rustbot, ryoko-website, kyleus-resources, kyleus-archive, no.peek-website-bio, kyleus-developer-bot, kyleus-dev-panel, kyleusdev"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="portfolio/icon-repositories-dark.svg"><img src="portfolio/icon-repositories-light.svg" width="100%" alt="All 11 repositories: ryoko-tweaker, Ryoko-visuals-1.21.11, Ryoko-CS2, rustbot, ryoko-website, kyleus-resources, kyleus-archive, no.peek-website-bio, kyleus-developer-bot, kyleus-dev-panel, kyleusdev"></picture>
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="portfolio/activity-dark.svg"><img src="portfolio/activity-light.svg" width="100%" alt="GitHub activity / 04"></picture>
 
