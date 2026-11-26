@@ -1,4 +1,4 @@
-name: Expressive Profile
+name: Archive Profile
 
 on:
   schedule:
@@ -12,6 +12,7 @@ on:
       - portfolio/projects.json
       - portfolio/render.mjs
       - portfolio/full-stats.mjs
+      - portfolio/archive.mjs
       - .github/workflows/expressive-profile.yml
 
 permissions:
@@ -35,14 +36,12 @@ jobs:
           ref: f852b8a36dc83923d374b2bcba03652338000049
           path: .expressive-renderer
           persist-credentials: false
-      - name: Render profile and selected project cards
-        run: |
-          node .expressive-renderer/action/render.mjs
-          node portfolio/render.mjs
+      - name: Fetch activity and profile artwork
+        run: node .expressive-renderer/action/render.mjs
         env:
           GITHUB_TOKEN: ${{ github.token }}
-      - name: Render full repository statistics
-        run: node portfolio/full-stats.mjs
+      - name: Render archive profile
+        run: node portfolio/archive.mjs
         env:
           PROFILE_STATS_TOKEN: ${{ secrets.PROFILE_STATS_TOKEN }}
       - name: Commit profile
