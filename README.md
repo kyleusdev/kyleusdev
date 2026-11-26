@@ -1,23 +1,36 @@
-<div align="center">
+<picture><source media="(prefers-color-scheme: dark)" srcset="portfolio/archive-hero-dark.svg"><img src="portfolio/archive-hero-light.svg" width="100%" alt="Kyleus — personal archive"></picture>
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg"><img src="assets/hero-light.svg" width="100%" alt="UNDERGROUND ARCHIVE / .Kyleus✞"></picture>
+[Telegram](https://t.me/kyleuss) · [Steam](https://steamcommunity.com/id/Kyleuss/) · [Discord](https://discord.com/users/723520555348656138)
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/social-l-dark.svg"><img src="assets/social-l-light.svg" width="24.995%" alt=""></picture><a href="https://t.me/kyleuss"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/social-1-dark.svg"><img src="assets/social-1-light.svg" width="18.122%" alt="telegram"></picture></a><a href="https://steamcommunity.com/id/Kyleuss/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/social-2-dark.svg"><img src="assets/social-2-light.svg" width="15.335%" alt="steam"></picture></a><a href="https://discord.com/users/723520555348656138"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/social-3-dark.svg"><img src="assets/social-3-light.svg" width="16.552%" alt="discord"></picture></a><picture><source media="(prefers-color-scheme: dark)" srcset="assets/social-r-dark.svg"><img src="assets/social-r-light.svg" width="24.995%" alt=""></picture>
+### 01 / ABOUT
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="portfolio/about-compact-dark.svg"><img src="portfolio/about-compact-light.svg" width="100%" alt="About: Full-stack development, desktop utilities, web and game visuals."></picture>
+Software, desktop utilities, web experiences and game visuals. Minimal interfaces, motion and monochrome design.
 
-<a href="https://github.com/Ryoko-Development"><picture><source media="(prefers-color-scheme: dark)" srcset="portfolio/ryoko-brand-dark.svg"><img src="portfolio/ryoko-brand-light.svg" width="100%" alt="Ryoko Development — Founder and developer"></picture></a>
+<a href="https://github.com/Ryoko-Development"><picture><source media="(prefers-color-scheme: dark)" srcset="portfolio/archive-org-dark.svg"><img src="portfolio/archive-org-light.svg" width="100%" alt="Ryoko Development — Founder and developer"></picture></a>
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/stack-dark.svg"><img src="assets/stack-light.svg" width="100%" alt="Tech stack / 02"></picture>
+### 02 / TOOLKIT
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="portfolio/icon-repositories-dark.svg"><img src="portfolio/icon-repositories-light.svg" width="100%" alt="All 11 repositories: ryoko-tweaker, Ryoko-visuals-1.21.11, Ryoko-CS2, rustbot, ryoko-website, kyleus-resources, kyleus-archive, no.peek-website-bio, kyleus-developer-bot, kyleus-dev-panel, kyleusdev"></picture>
+`C++` `C#` `Java` `Python` `JavaScript` `TypeScript`  
+`.NET / WPF` `Fabric` `Node.js` `React` `Cloudflare Workers` `Git` `GitHub Actions`
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="portfolio/activity-dark.svg"><img src="portfolio/activity-light.svg" width="100%" alt="GitHub activity / 04"></picture>
+### 03 / REPOSITORIES (11)
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/streak-dark.svg"><img src="assets/streak-light.svg" width="100%" alt="Coding streak / 05"></picture>
+| Repository | Stack |
+| :--- | :--- |
+| `ryoko-tweaker` | C# / WPF / .NET |
+| `Ryoko-visuals-1.21.11` | Java / Fabric |
+| `Ryoko-CS2` | C++ |
+| `rustbot` | JavaScript / Cloudflare |
+| `ryoko-website` | React / TypeScript |
+| `kyleus-resources` | PNG / Assets |
+| `kyleus-archive` | HTML / CSS / JavaScript |
+| `no.peek-website-bio` | TypeScript / Next.js |
+| `kyleus-developer-bot` | JavaScript / Cloudflare |
+| `kyleus-dev-panel` | HTML / CSS / JavaScript |
+| `kyleusdev` | Markdown / JavaScript |
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/wave-dark.svg"><img src="assets/wave-light.svg" width="100%" alt=""></picture>
+### 04 / ACTIVITY
 
-<a href="https://github.com/kyleusdev?tab=repositories"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/button-1-dark.svg"><img src="assets/button-1-light.svg" width="auto" alt="Public repositories"></picture></a>
+<picture><source media="(prefers-color-scheme: dark)" srcset="portfolio/archive-activity-dark.svg"><img src="portfolio/archive-activity-light.svg" width="100%" alt="GitHub activity, contributions, streak and language statistics"></picture>
 
-</div>
+[Browse public repositories](https://github.com/kyleusdev?tab=repositories)
