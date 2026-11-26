@@ -63,10 +63,10 @@ function patchAbout(s){
  return s.replace(re,block).replace(/\n{3,}/g,"\n\n");
 }
 function removeCredit(s){return s.replace(/^.*srcset="assets\/credit-dark\.svg".*\n?/gm,"").replace(/\n{3,}/g,"\n\n");}
-function refreshSocialAssets(s){
- return s.replace(/assets\/(social-(?:\d+|l|r)-(?:dark|light)\.svg)(?:\?v=[a-f0-9]+)?/g,(_,name)=>{
-  const version=createHash("sha256").update(readFileSync("assets/"+name)).digest("hex").slice(0,12);
-  return "assets/"+name+"?v="+version;
+function refreshProfileAssets(s){
+ return s.replace(/((?:assets|portfolio)\/[\w-]+-(?:dark|light)\.svg)(?:\?v=[a-f0-9]+)?/g,(_,name)=>{
+  const version=createHash("sha256").update(readFileSync(name)).digest("hex").slice(0,12);
+  return name+"?v="+version;
  });
 }
-writeFileSync("README.md",refreshSocialAssets(removeCredit(patchAbout(patchReadme(readFileSync("README.md","utf8"),projects))).replaceAll("assets/hero-","portfolio/intro-")));
+writeFileSync("README.md",refreshProfileAssets(removeCredit(patchAbout(patchReadme(readFileSync("README.md","utf8"),projects))).replaceAll("assets/hero-","portfolio/intro-")));
