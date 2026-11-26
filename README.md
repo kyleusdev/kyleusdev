@@ -1,36 +1,23 @@
 <div align="center">
-  <img src="assets/kyleus-banner.png" alt=".Kyleus✞ — monochrome vortex banner" width="100%">
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg"><img src="assets/hero-light.svg" width="100%" alt="UNDERGROUND ARCHIVE / .Kyleus✞"></picture>
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/social-l-dark.svg"><img src="assets/social-l-light.svg" width="24.995%" alt=""></picture><a href="https://t.me/kyleuss"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/social-1-dark.svg"><img src="assets/social-1-light.svg" width="18.122%" alt="telegram"></picture></a><a href="https://steamcommunity.com/id/Kyleuss/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/social-2-dark.svg"><img src="assets/social-2-light.svg" width="15.335%" alt="steam"></picture></a><a href="https://discord.com/users/723520555348656138"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/social-3-dark.svg"><img src="assets/social-3-light.svg" width="16.552%" alt="discord"></picture></a><picture><source media="(prefers-color-scheme: dark)" srcset="assets/social-r-dark.svg"><img src="assets/social-r-light.svg" width="24.995%" alt=""></picture>
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/about-dark.svg"><img src="assets/about-light.svg" width="100%" alt="About / 01"></picture>
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/stack-dark.svg"><img src="assets/stack-light.svg" width="100%" alt="Tech stack / 02"></picture>
+
+<a href="https://github.com/kyleusdev/kyleus-resources"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-kyleus-resources-dark.svg"><img src="assets/project-kyleus-resources-light.svg" width="49%" alt="kyleus-resources"></picture></a>
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/stats-dark.svg"><img src="assets/stats-light.svg" width="100%" alt="GitHub activity / 03"></picture>
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/streak-dark.svg"><img src="assets/streak-light.svg" width="100%" alt="Coding streak / 04"></picture>
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/wave-dark.svg"><img src="assets/wave-light.svg" width="100%" alt=""></picture>
+
+<a href="https://kyleus.vercel.app/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/button-1-dark.svg"><img src="assets/button-1-light.svg" width="auto" alt="Enter the archive"></picture></a>&nbsp;&nbsp;<a href="https://github.com/kyleusdev?tab=repositories"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/button-2-dark.svg"><img src="assets/button-2-light.svg" width="auto" alt="Public repositories"></picture></a>
+
+<a href="https://metawka.github.io/expressive-profile/?from=kyleusdev"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/credit-dark.svg"><img src="assets/credit-light.svg" width="auto" alt="Made with Expressive Profile"></picture></a>
+
 </div>
-
-<p align="center">
-  <code>UNDERGROUND ARCHIVE 2026</code> &nbsp;✦&nbsp; <code>PERSONAL ARCHIVE</code>
-</p>
-
-<table>
-  <tr>
-    <td valign="top" width="68%">
-      <p><code>01 // ABOUT</code></p>
-      <p>I'm <strong>.Kyleus✞</strong>. This profile is my little corner for code, personal projects, and things I want to keep around. Mostly games, music, and good people.</p>
-      <p><code>02 // TRANSMISSION</code></p>
-      <p><strong>CODE AFTER DARK</strong><br><strong>MUSIC ON LOOP</strong><br><strong>ONE MORE ROUND</strong></p>
-      <p><a href="https://kyleus.vercel.app/">ENTER THE BIO ↗</a></p>
-    </td>
-    <td align="center" valign="middle" width="32%">
-      <img src="assets/chrome-study.gif" alt="Looping chrome motion study" width="240">
-      <br><sub>CHROME FORM / MOTION</sub>
-      <br><sub><a href="assets/chrome-study-source.mp4">SOURCE CLIP ↗</a></sub>
-    </td>
-  </tr>
-</table>
-
-## `03 // CODE`
-
-<code>C++</code> &nbsp; <code>Python</code> &nbsp; <code>JavaScript</code>
-
-<hr>
-
-<p align="center">
-  <a href="https://t.me/kyleuss">TELEGRAM</a> &nbsp;✦&nbsp;
-  <a href="https://steamcommunity.com/id/Kyleuss/">STEAM</a> &nbsp;✦&nbsp;
-  <a href="https://discord.com/users/723520555348656138">DISCORD</a>
-</p>
