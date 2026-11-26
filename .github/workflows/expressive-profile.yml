@@ -11,6 +11,7 @@ on:
       - .profile/icons.json
       - portfolio/projects.json
       - portfolio/render.mjs
+      - portfolio/full-stats.mjs
       - .github/workflows/expressive-profile.yml
 
 permissions:
@@ -40,9 +41,13 @@ jobs:
           node portfolio/render.mjs
         env:
           GITHUB_TOKEN: ${{ github.token }}
+      - name: Render full repository statistics
+        run: node portfolio/full-stats.mjs
+        env:
+          PROFILE_STATS_TOKEN: ${{ secrets.PROFILE_STATS_TOKEN }}
       - name: Commit profile
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -A -- README.md assets .profile portfolio/projects-dark.svg portfolio/projects-light.svg
+          git add -A -- README.md assets .profile portfolio/*.svg
           git diff --cached --quiet || (git commit -m "chore: refresh expressive profile" && git push)
