@@ -6,7 +6,7 @@
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="portfolio/about-compact-dark.svg"><img src="portfolio/about-compact-light.svg" width="100%" alt="About: Full-stack development, desktop utilities, web and game visuals."></picture>
 
-<a href="https://github.com/Ryoko-Development"><picture><source media="(prefers-color-scheme: dark)" srcset="portfolio/ryoko-org-dark.svg"><img src="portfolio/ryoko-org-light.svg" width="100%" alt="Ryoko Development — Founder and developer"></picture></a>
+<a href="https://github.com/Ryoko-Development"><picture><source media="(prefers-color-scheme: dark)" srcset="portfolio/ryoko-brand-dark.svg"><img src="portfolio/ryoko-brand-light.svg" width="100%" alt="Ryoko Development — Founder and developer"></picture></a>
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/stack-dark.svg"><img src="assets/stack-light.svg" width="100%" alt="Tech stack / 02"></picture>
 
