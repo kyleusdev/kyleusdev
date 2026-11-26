@@ -1,0 +1,38 @@
+[
+  [
+    "Ryoko Tweaker",
+    "Windows optimization utility",
+    "C# / WPF / .NET",
+    "RT"
+  ],
+  [
+    "Ryoko Visuals",
+    "Minecraft visuals and interface",
+    "Java / Fabric",
+    "RV"
+  ],
+  [
+    "Ryoko CS2 Kit",
+    "Desktop utility for CS2",
+    "C++",
+    "CS"
+  ],
+  [
+    "RustClanManager",
+    "Discord bot for Rust communities",
+    "JavaScript / Node.js",
+    "RC"
+  ],
+  [
+    "Ryoko Website",
+    "Product ecosystem website",
+    "JavaScript / Web",
+    "RW"
+  ],
+  [
+    "kyleus-resources",
+    "Public project artwork and assets",
+    "Assets / PNG",
+    "KR"
+  ]
+]
