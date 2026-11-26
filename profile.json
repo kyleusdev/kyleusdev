@@ -46,19 +46,11 @@
     "items": [
       {
         "icon": "code",
-        "label": "Software, utilities and personal projects"
-      },
-      {
-        "icon": "desktop_windows",
-        "label": "Desktop apps and web experiences"
+        "label": "Full-stack development, desktop utilities, web and game visuals"
       },
       {
         "icon": "palette",
         "label": "Minimal interfaces, motion and monochrome design"
-      },
-      {
-        "icon": "deployed_code",
-        "label": "Currently building Ryoko"
       }
     ]
   },
