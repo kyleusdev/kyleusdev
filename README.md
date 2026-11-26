@@ -8,7 +8,7 @@
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/stack-dark.svg"><img src="assets/stack-light.svg" width="100%" alt="Tech stack / 02"></picture>
 
-<a href="https://github.com/kyleusdev/kyleus-resources"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-kyleus-resources-dark.svg"><img src="assets/project-kyleus-resources-light.svg" width="49%" alt="kyleus-resources"></picture></a>
+<picture><source media="(prefers-color-scheme: dark)" srcset="portfolio/projects-dark.svg"><img src="portfolio/projects-light.svg" width="100%" alt="Selected projects: Ryoko Tweaker, Ryoko Visuals, Ryoko CS2 Kit, RustClanManager, Ryoko Website, kyleus-resources"></picture>
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/stats-dark.svg"><img src="assets/stats-light.svg" width="100%" alt="GitHub activity / 03"></picture>
 
@@ -16,7 +16,7 @@
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/wave-dark.svg"><img src="assets/wave-light.svg" width="100%" alt=""></picture>
 
-<a href="https://kyleus.vercel.app/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/button-1-dark.svg"><img src="assets/button-1-light.svg" width="auto" alt="Enter the archive"></picture></a>&nbsp;&nbsp;<a href="https://github.com/kyleusdev?tab=repositories"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/button-2-dark.svg"><img src="assets/button-2-light.svg" width="auto" alt="Public repositories"></picture></a>
+<a href="https://github.com/kyleusdev?tab=repositories"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/button-2-dark.svg"><img src="assets/button-2-light.svg" width="auto" alt="Public repositories"></picture></a>
 
 <a href="https://metawka.github.io/expressive-profile/?from=kyleusdev"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/credit-dark.svg"><img src="assets/credit-light.svg" width="auto" alt="Made with Expressive Profile"></picture></a>
 
