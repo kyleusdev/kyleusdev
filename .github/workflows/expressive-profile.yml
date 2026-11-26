@@ -37,6 +37,20 @@ jobs:
           persist-credentials: false
       - name: Render profile and selected project cards
         run: |
+          node --input-type=module <<'NODE'
+          import { readFileSync, writeFileSync } from "node:fs";
+          const file = ".expressive-renderer/action/render.mjs";
+          const cfg = JSON.parse(readFileSync("profile.json", "utf8"));
+          const labels = Object.fromEntries(cfg.socials.items.filter(s => s.label).map(s => [s.url, s.label]));
+          let source = readFileSync(file, "utf8");
+          const marker = "function g2(r,t){";
+          if (!source.includes(marker)) throw new Error("Social label patch target missing");
+          source = source.replace(marker, marker + "let custom=" + JSON.stringify(labels) + ";if(Object.hasOwn(custom,t.url))return custom[t.url];");
+          source = source.replace('alt:s.icon.replace("brand:","")', 'alt:g2({brand:{}},s)');
+          // Retain original alt text for unlabeled links.
+          source = source.replace('alt:g2({brand:{}},s)', 'alt:(' + JSON.stringify(labels) + ')[s.url]??s.icon.replace("brand:","")');
+          writeFileSync(file, source);
+          NODE
           node .expressive-renderer/action/render.mjs
           node portfolio/render.mjs
         env:
