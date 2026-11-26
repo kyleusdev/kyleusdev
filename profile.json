@@ -17,7 +17,9 @@
     "wave",
     "buttons"
   ],
-  "hidden": [],
+  "hidden": [
+    "projects"
+  ],
   "hero": {
     "greeting": "UNDERGROUND ARCHIVE /",
     "name": ".Kyleus✞",
@@ -63,31 +65,6 @@
   "stack": {
     "title": "Tech stack / 02",
     "groups": [
-      {
-        "title": "Current projects / languages",
-        "items": [
-          {
-            "icon": "desktop_windows",
-            "label": "Ryoko Tweaker — C# / WPF"
-          },
-          {
-            "icon": "sports_esports",
-            "label": "Ryoko Visuals — Java / Fabric"
-          },
-          {
-            "icon": "code",
-            "label": "Ryoko CS2 Kit — C++"
-          },
-          {
-            "icon": "brand:discord",
-            "label": "RustClanManager — JavaScript / Node.js"
-          },
-          {
-            "icon": "language",
-            "label": "Ryoko Website — JavaScript"
-          }
-        ]
-      },
       {
         "title": "Languages",
         "items": [
@@ -155,7 +132,7 @@
     "fork": "Fork"
   },
   "stats": {
-    "title": "GitHub activity / 03",
+    "title": "GitHub activity / 04",
     "stars": "Stars",
     "contributions": "Contributions this year",
     "repos": "Public repositories",
@@ -166,7 +143,7 @@
     "showLanguages": true
   },
   "streak": {
-    "title": "Coding streak / 04",
+    "title": "Coding streak / 05",
     "current": "Current streak",
     "longest": "Longest this year",
     "days": "days"
@@ -192,12 +169,6 @@
   },
   "buttons": {
     "items": [
-      {
-        "icon": "language",
-        "label": "Enter the archive",
-        "url": "https://kyleus.vercel.app/",
-        "style": "filled"
-      },
       {
         "icon": "book_2",
         "label": "Public repositories",

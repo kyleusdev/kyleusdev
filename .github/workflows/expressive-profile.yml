@@ -9,6 +9,8 @@ on:
     paths:
       - profile.json
       - .profile/icons.json
+      - portfolio/projects.json
+      - portfolio/render.mjs
       - .github/workflows/expressive-profile.yml
 
 permissions:
@@ -25,7 +27,22 @@ jobs:
     timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
-      - uses: metawka/expressive-profile@f852b8a36dc83923d374b2bcba03652338000049 # v1
+      - name: Fetch pinned Expressive renderer
+        uses: actions/checkout@v4
         with:
-          token: ${{ github.token }}
-          commit-message: "chore: refresh expressive profile"
+          repository: metawka/expressive-profile
+          ref: f852b8a36dc83923d374b2bcba03652338000049
+          path: .expressive-renderer
+          persist-credentials: false
+      - name: Render profile and selected project cards
+        run: |
+          node .expressive-renderer/action/render.mjs
+          node portfolio/render.mjs
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+      - name: Commit profile
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A -- README.md assets .profile portfolio/projects-dark.svg portfolio/projects-light.svg
+          git diff --cached --quiet || (git commit -m "chore: refresh expressive profile" && git push)
