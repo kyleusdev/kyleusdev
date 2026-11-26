@@ -1,38 +1,68 @@
 [
   [
-    "Ryoko Tweaker",
+    "ryoko-tweaker",
     "Windows optimization utility",
     "C# / WPF / .NET",
     "RT"
   ],
   [
-    "Ryoko Visuals",
+    "Ryoko-visuals-1.21.11",
     "Minecraft visuals and interface",
     "Java / Fabric",
     "RV"
   ],
   [
-    "Ryoko CS2 Kit",
+    "Ryoko-CS2",
     "Desktop utility for CS2",
     "C++",
     "CS"
   ],
   [
-    "RustClanManager",
-    "Discord bot for Rust communities",
-    "JavaScript / Node.js",
+    "rustbot",
+    "RustClanManager Discord bot",
+    "JavaScript / Cloudflare",
     "RC"
   ],
   [
-    "Ryoko Website",
+    "ryoko-website",
     "Product ecosystem website",
-    "JavaScript / Web",
+    "React / TypeScript",
     "RW"
   ],
   [
     "kyleus-resources",
     "Public project artwork and assets",
-    "Assets / PNG",
+    "PNG / Assets",
     "KR"
+  ],
+  [
+    "kyleus-archive",
+    "Personal archive / BIO source",
+    "HTML / CSS / JavaScript",
+    "KA"
+  ],
+  [
+    "no.peek-website-bio",
+    "Personal website source",
+    "TypeScript / Next.js",
+    "NP"
+  ],
+  [
+    "kyleus-developer-bot",
+    "Telegram developer bot",
+    "JavaScript / Cloudflare",
+    "DB"
+  ],
+  [
+    "kyleus-dev-panel",
+    "Developer dashboard",
+    "HTML / CSS / JavaScript",
+    "DP"
+  ],
+  [
+    "kyleusdev",
+    "GitHub profile and automation",
+    "Markdown / JavaScript",
+    "GH"
   ]
 ]
