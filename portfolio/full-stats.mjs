@@ -55,8 +55,8 @@ async function liveStats(){
 const live=await liveStats();
 for(const theme of ["dark","light"]){writeFileSync("portfolio/compact-repositories-"+theme+".svg",readFileSync("portfolio/projects-"+theme+".svg","utf8"));writeFileSync("portfolio/activity-"+theme+".svg",patchStats(readFileSync("assets/stats-"+theme+".svg","utf8"),projects,primary,live));}
 function patchAbout(s){
- const block='<picture><source media="(prefers-color-scheme: dark)" srcset="portfolio/about-compact-dark.svg"><img src="portfolio/about-compact-light.svg" width="100%" alt="About: Full-stack development, desktop utilities, web and game visuals."></picture>\n\n<a href="https://github.com/Ryoko-Development"><picture><source media="(prefers-color-scheme: dark)" srcset="portfolio/ryoko-org-dark.svg"><img src="portfolio/ryoko-org-light.svg" width="100%" alt="Ryoko Development — Founder and developer"></picture></a>';
- s=s.replace(/^.*srcset="portfolio\/ryoko-org-dark\.svg".*\n?/gm,"");
+ const block='<picture><source media="(prefers-color-scheme: dark)" srcset="portfolio/about-compact-dark.svg"><img src="portfolio/about-compact-light.svg" width="100%" alt="About: Full-stack development, desktop utilities, web and game visuals."></picture>\n\n<a href="https://github.com/Ryoko-Development"><picture><source media="(prefers-color-scheme: dark)" srcset="portfolio/ryoko-brand-dark.svg"><img src="portfolio/ryoko-brand-light.svg" width="100%" alt="Ryoko Development — Founder and developer"></picture></a>';
+ s=s.replace(/^.*srcset="portfolio\/(?:ryoko-org|ryoko-brand)-dark\.svg".*\n?/gm,"");
  const re=/^.*srcset="(?:assets\/about|portfolio\/about-compact)-dark\.svg".*$/m;
  if(!re.test(s))throw Error("Missing About section");
  return s.replace(re,block).replace(/\n{3,}/g,"\n\n");
