@@ -8,9 +8,9 @@
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/stack-dark.svg"><img src="assets/stack-light.svg" width="100%" alt="Tech stack / 02"></picture>
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="portfolio/projects-dark.svg"><img src="portfolio/projects-light.svg" width="100%" alt="Repositories: ryoko-tweaker, Ryoko-visuals-1.21.11, Ryoko-CS2, rustbot, ryoko-website, kyleus-resources, kyleus-archive, no.peek-website-bio, kyleus-developer-bot, kyleus-dev-panel, kyleusdev"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="portfolio/repositories-dark.svg"><img src="portfolio/repositories-light.svg" width="100%" alt="All 11 repositories: ryoko-tweaker, Ryoko-visuals-1.21.11, Ryoko-CS2, rustbot, ryoko-website, kyleus-resources, kyleus-archive, no.peek-website-bio, kyleus-developer-bot, kyleus-dev-panel, kyleusdev"></picture>
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/stats-dark.svg"><img src="assets/stats-light.svg" width="100%" alt="GitHub activity / 04"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="portfolio/activity-dark.svg"><img src="portfolio/activity-light.svg" width="100%" alt="GitHub activity / 04"></picture>
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/streak-dark.svg"><img src="assets/streak-light.svg" width="100%" alt="Coding streak / 05"></picture>
 
