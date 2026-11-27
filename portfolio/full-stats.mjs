@@ -69,4 +69,17 @@ function refreshProfileAssets(s){
   return name+"?v="+version;
  });
 }
-writeFileSync("README.md",refreshProfileAssets(removeCredit(patchAbout(patchReadme(readFileSync("README.md","utf8"),projects))).replaceAll("assets/hero-","portfolio/intro-")));
+// Reapply the black palette after the upstream renderer refreshes its SVGs.
+const darkPalette={"#1b1b1b":"#080808","#1f1f1f":"#0a0a0a","#242424":"#101010","#2a2a2a":"#151515","#353535":"#202020","#474747":"#262626","#424242":"#282828","#111111":"#050505","#d4d4d4":"#bdbdbd","#c6c6c6":"#a6a6a6","#919191":"#858585"};
+function applyDarkPalette(readme){
+ const paths=new Set([...readme.matchAll(/(?:srcset|src)="([^"?]+-dark\.svg)(?:\?[^"]*)?"/g)].map(m=>m[1]));
+ for(const path of paths){
+  const old=readFileSync(path,"utf8");
+  let svg=old.replace(/#[0-9a-fA-F]{6}\b/g,c=>darkPalette[c.toLowerCase()]??c);
+  if(path==="assets/wave-dark.svg")svg=svg.replace(/#ffffff\b/g,"#777777");
+  if(svg!==old)writeFileSync(path,svg);
+ }
+ return readme;
+}
+const profileReadme=removeCredit(patchAbout(patchReadme(readFileSync("README.md","utf8"),projects))).replaceAll("assets/hero-","portfolio/intro-");
+writeFileSync("README.md",refreshProfileAssets(applyDarkPalette(profileReadme)));
