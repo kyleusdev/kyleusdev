@@ -1,6 +1,6 @@
 <div align="center">
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="portfolio/intro-dark.svg?v=25c71fa9e128"><img src="portfolio/intro-light.svg?v=818fb6a9e128" width="100%" alt=" .Kyleus✞"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="portfolio/intro-dark.svg?v=921c3ff29973"><img src="portfolio/intro-light.svg?v=20abf9d24329" width="100%" alt=" .Kyleus✞"></picture>
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/social-l-dark.svg?v=9597e275cf3c"><img src="assets/social-l-light.svg?v=83460379d400" width="13.388%" alt=""></picture><a href="https://t.me/kyleuss"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/social-1-dark.svg?v=f171f6241a05"><img src="assets/social-1-light.svg?v=849ece6fb94c" width="18.122%" alt="telegram"></picture></a><a href="https://steamcommunity.com/id/Kyleuss/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/social-2-dark.svg?v=79d77cb143de"><img src="assets/social-2-light.svg?v=e545a76b0925" width="20.242%" alt="Steam Main"></picture></a><a href="https://steamcommunity.com/id/kyleusss/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/social-3-dark.svg?v=b7bbc25b0acf"><img src="assets/social-3-light.svg?v=df611664f472" width="18.307%" alt="Steam Alt"></picture></a><a href="https://discord.com/users/723520555348656138"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/social-4-dark.svg?v=df3f743c7a70"><img src="assets/social-4-light.svg?v=061d793d00ad" width="16.552%" alt="discord"></picture></a><picture><source media="(prefers-color-scheme: dark)" srcset="assets/social-r-dark.svg?v=ca31798baedf"><img src="assets/social-r-light.svg?v=776723dfe88d" width="13.388%" alt=""></picture>
 
@@ -12,7 +12,7 @@
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="portfolio/clean-repositories-dark.svg?v=359bade51662"><img src="portfolio/clean-repositories-light.svg?v=9d398e32f2df" width="100%" alt="All 11 repositories: ryoko-tweaker, Ryoko-visuals-1.21.11, Ryoko-CS2, rustbot, ryoko-website, kyleus-resources, kyleus-archive, no.peek-website-bio, kyleus-developer-bot, kyleus-dev-panel, kyleusdev"></picture>
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="portfolio/activity-dark.svg?v=34856f6467e8"><img src="portfolio/activity-light.svg?v=b7dfd1059514" width="100%" alt="GitHub activity / 04"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="portfolio/activity-dark.svg?v=971cf6473b17"><img src="portfolio/activity-light.svg?v=a59fb4155207" width="100%" alt="GitHub activity / 04"></picture>
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/streak-dark.svg?v=e6ffd3f73b7c"><img src="assets/streak-light.svg?v=8fd270797c84" width="100%" alt="Coding streak / 05"></picture>
 
