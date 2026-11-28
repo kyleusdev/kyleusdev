@@ -82,4 +82,11 @@ function applyDarkPalette(readme){
  return readme;
 }
 const profileReadme=removeCredit(patchAbout(patchReadme(readFileSync("README.md","utf8"),projects))).replaceAll("assets/hero-","portfolio/intro-");
+// Keep the personal caption under the avatar on every scheduled refresh.
+for(const theme of ["dark","light"]){
+ const path="portfolio/intro-"+theme+".svg";
+ const svg=readFileSync(path,"utf8").replace(/<text id="avatar-caption"[^>]*>[^<]*<\/text>/g,"");
+ const caption='<text id="avatar-caption" x="150" y="284" text-anchor="middle" fill="'+(theme==="dark"?"#a6a6a6":"#555555")+'" font-size="14" font-weight="500" letter-spacing="1.1" class="fade">new prime?</text>';
+ writeFileSync(path,svg.replace("</svg>",caption+"</svg>"));
+}
 writeFileSync("README.md",refreshProfileAssets(applyDarkPalette(profileReadme)));
