@@ -12,7 +12,7 @@
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="portfolio/clean-repositories-dark.svg?v=359bade51662"><img src="portfolio/clean-repositories-light.svg?v=9d398e32f2df" width="100%" alt="All 11 repositories: ryoko-tweaker, Ryoko-visuals-1.21.11, Ryoko-CS2, rustbot, ryoko-website, kyleus-resources, kyleus-archive, no.peek-website-bio, kyleus-developer-bot, kyleus-dev-panel, kyleusdev"></picture>
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="portfolio/activity-dark.svg?v=a50e1619e7d0"><img src="portfolio/activity-light.svg?v=58fc074f1ce2" width="100%" alt="GitHub activity / 04"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="portfolio/activity-dark.svg?v=4ba3c3525ea6"><img src="portfolio/activity-light.svg?v=115755e295f9" width="100%" alt="GitHub activity / 04"></picture>
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/streak-dark.svg?v=c6ff942dc270"><img src="assets/streak-light.svg?v=eebca83f33b3" width="100%" alt="Coding streak / 05"></picture>
 

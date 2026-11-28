@@ -1,5 +1,5 @@
 {
- "key": "9816d982",
+ "key": "3dfe8e3d",
  "stars": 0,
  "contributions": 537,
  "repos": 2,
@@ -7,7 +7,7 @@
  "languages": [
   [
    "JavaScript",
-   9159
+   9957
   ]
  ],
  "days": [
@@ -114,9 +114,13 @@
    {
     "c": 4,
     "day": 27,
-    "today": true
+    "today": false
    },
-   null
+   {
+    "c": 0,
+    "day": 28,
+    "today": true
+   }
   ]
  ],
  "streak": {
